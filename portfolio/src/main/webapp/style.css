@@ -1,9 +1,141 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+.aboutme {
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+h1 {
+  color: #333;
+  font-family: "DIN-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
 }
 
-#greeting-container {
-  margin-top: 20px;
+h2 {
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+h2 > span {
+  color: #666666;
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 20px;
+}
+.intro {
+  margin-bottom: 0px;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.intro_cont {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.full-width-image {
+  width: 100%;
+}
+.work-header {
+  margin-top: 80px;
+  text-align: left;
+}
+.work-header > h1 {
+  font-size: 24px;
+  color: #333;
+  font-family: "DIN-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.work-header > h2 {
+  font-size: 20px;
+  color: #333;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 24px;
+}
+.work-header > h3 {
+  font-size: 16px;
+  color: #666;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.work-explain {
+  margin-top: 36px;
+}
+.work-explain-2 {
+  margin-top: 12px;
+}
+.work-explain > h1 {
+  font-size: 16px;
+  color: #333;
+  font-family: "DIN-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.work-header-image {
+  width: 80px;
+}
+.work-header-image-web-grofers {
+  width: 52px;
+}
+.black-text {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.main-heading {
+  color: #111;
+  font-family: "DIN-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: left;
+  vertical-align: top;
+}
+.work-heading {
+  color: #222;
+  font-family: "DIN-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.work-heading-bottom {
+  color: #333;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.what-is-it {
+  color: #666;
+  font-size: 14px;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 6px;
+}
+.link-to-work {
+  font-size: 14px;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.link-to-image {
+  font-size: 14px;
+  height: 40px;
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.profilepic {
+  width: 62px;
+}
+.row {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.aboutme {
+  font-family: "DIN-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 10px;
 }

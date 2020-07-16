@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Aniket Goyal</title>
+    <title>My Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="icon" href="images/profile.jpeg" type="image/icon type">
@@ -79,6 +80,16 @@
             </div>
           </div>
 
+        </div>
+        <div class="col-xs-12 line" >
+            <hr>
+        </div>
+        <h4 class="main-heading">Comments</h4>
+        <form id="commentForm" action="/comment" method="POST">
+            <textarea type="text" id="commentBox" name="commentText"></textarea><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <div id="comments">
         </div>
       </div>
     </div>

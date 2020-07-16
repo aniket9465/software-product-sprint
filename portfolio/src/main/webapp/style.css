@@ -139,3 +139,13 @@ body {
   line-height: 1.7;
   margin-top: 10px;
 }
+#commentForm{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+#commentBox{
+    height: 5vh;
+    padding: 10px;
+    flex-grow: 1
+}

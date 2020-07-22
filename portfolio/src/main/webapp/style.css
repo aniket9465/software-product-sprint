@@ -149,3 +149,15 @@ body {
     padding: 10px;
     flex-grow: 1
 }
+#loginDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#logoutDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
